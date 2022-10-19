@@ -19,5 +19,20 @@ public class CalculatorTest
         {
             assertEquals(10, myResult.add(5,5));
         }
+    @Test
+    void testSubtract()
+    {
+        assertEquals(4, myResult.subtract(5,1));
+    }
+    @Test
+    void testMultiply()
+    {
+        assertEquals(20, myResult.multiply(10,2));
+    }
+    @Test
+    void testDivide()
+    {
+        assertEquals(1, myResult.divide(5,5));
+    }
 
 }

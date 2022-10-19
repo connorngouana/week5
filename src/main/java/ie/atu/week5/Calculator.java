@@ -18,5 +18,20 @@ public class Calculator
         result = val1 + val2;
         return result;
     }
+    public int subtract(int val1, int val2)
+    {
+        result = val1 - val2;
+        return result;
+    }
+    public int multiply(int val1, int val2)
+    {
+        result = val1 * val2;
+        return result;
+    }
+    public int divide(int val1, int val2)
+    {
+        result = val1 / val2;
+        return result;
+    }
 
 }
